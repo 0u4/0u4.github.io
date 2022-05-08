@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin-top: 1rem;
+  margin-top: 2em;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
 }
@@ -26,7 +26,7 @@ ul {
 }
 .header .container {
   position: fixed;
-  top: 0px;
+  top: 10px;
   width: 100%;
   z-index: 100;
   background-color: var(--color-2);
@@ -304,7 +304,7 @@ main .column-right p {
 /* ------------different approach for responsive, also with media queries---------------------------- */
 .footer {
   background-color: royalblue;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .container {
   max-width: 100%;
@@ -320,13 +320,13 @@ main .column-right p {
 }
 .footer-col {
   width: 18%;
-  padding: 0 5px;
+  padding: 5px 10px;
 }
 .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   font-weight: 500;
   position: relative;
 }
@@ -353,7 +353,7 @@ main .column-right p {
 /* footer > responsive */
 @media (max-width: 767px) {
   .footer-col {
-    width: 100%;
+    width: 40%;
     margin-bottom: 30px;
   }
 }
@@ -367,14 +367,14 @@ main .column-right p {
   }
   .footer-col ul li a:hover {
     color: #ffffff;
-    padding-left: 0px;
+    padding-left: 15px;
   }
   .footer ul #line::after {
     content: "-";
     color: whitesmoke;
     display: inline-block;
-    padding-left: 5px;
-    padding-right: 2px;
+    padding-left: 10px;
+    padding-right: 5px;
     width: 5px;
     height: 5px;
     left: 0;
