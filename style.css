@@ -304,6 +304,7 @@ main .column-right p {
 /* ------------different approach for responsive, also with media queries---------------------------- */
 
 .site__footer {
+  background-color: royalblue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
