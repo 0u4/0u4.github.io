@@ -1,0 +1,381 @@
+/* CSS general---------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --color-2: white;
+  --color-3: rgb(65, 105, 225);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* CSS header---------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header .container {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--color-2);
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.header {
+  background-color: var(--color-2);
+  padding: 12px 0;
+  position: relative;
+}
+.header .logo,
+.header .nav {
+  padding: 0 15px;
+}
+.header .logo a {
+  font-size: 30px;
+  color: black;
+  text-transform: capitalize;
+}
+/* Would use ::first-letter but not working on "display:inline-block */
+.header .logo a #c-logo {
+  font-size: 30px;
+  color: var(--color-2);
+  background-color: var(--color-3);
+  text-transform: capitalize;
+  padding: 1px;
+  border-radius: 5px;
+}
+.header .logo a #dot-logo {
+  font-size: 30px;
+  color: var(--color-3);
+  text-transform: capitalize;
+}
+.header .nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.header .nav ul li a {
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+  color: black;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+.header .nav ul li a:hover,
+.header .nav ul li a.active {
+  color: var(--color-3);
+}
+.header #telephone {
+  background-color: var(--color-3);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+/* navbar > burger */
+.nav-toggler {
+  height: 34px;
+  width: 44px;
+  background-color: var(--color-3);
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.nav-toggler span {
+  display: block;
+  height: 2px;
+  width: 20px;
+  background-color: var(--color-2);
+  position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-2);
+  left: 0;
+}
+.nav-toggler span::before {
+  top: -6px;
+}
+.nav-toggler span::after {
+  top: 6px;
+}
+
+/* navbar > responsive */
+.header #nav-check {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+@media (max-width: 966px) {
+  .nav-toggler {
+    display: flex;
+  }
+  .header .nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: var(--color-3);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .header .nav ul li a {
+    color: var(--color-2);
+  }
+  .header .nav ul li a.active {
+    color: var(--color-2);
+  }
+  .header .nav ul li a:hover {
+    color: var(--color-2);
+    padding-left: 5px;
+  }
+
+  .header #telephone {
+    background-color: transparent;
+    padding-left: 0px;
+  }
+  .header #telephone img {
+    display: none;
+  }
+  .header .nav ul li {
+    display: block;
+    margin: 0;
+  }
+  .header #nav-check:checked ~ .nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header #nav-check:focus ~ .nav-toggler {
+    box-shadow: 0 0 15px #000000;
+  }
+  .header #nav-check:checked ~ .nav-toggler span {
+    background-color: transparent;
+  }
+  .header #nav-check:checked ~ .nav-toggler span::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .header #nav-check:checked ~ .nav-toggler span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+}
+/* navbar > telephone animation*/
+#telephone:hover {
+  animation: shake 0.5s;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* CSS main---------------------------- */
+main {
+  display: flex;
+}
+.column-left {
+  flex: 50%;
+  padding: 2em;
+}
+.column-right {
+  flex: 40%;
+  padding: 2em;
+}
+#coworking {
+  color: rgb(48, 89, 221);
+}
+main .column-right p {
+  line-height: 22px;
+}
+/* CSS image-------------------------------------------------------------------------------------------------------------- */
+.image {
+  position: relative;
+  margin: 0 auto;
+  padding: 0px;
+  display: inline-block;
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+}
+.image img {
+  height: 300px;
+  max-width: 100%;
+}
+.image p {
+  padding: 0 10px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  font-size: 2vw;
+  width: 50%;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* CSS articles---------------------------- */
+/*-------------responsive 3x2 grid layout with media queries. Not perfect, but working.*/
+.article {
+  padding: 1rem;
+  height: auto;
+}
+.articles {
+  align-items: center;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+.articles p {
+  line-height: 20px;
+  text-align: justify;
+}
+@media (min-width: 600px) {
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .articles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* CSS footer---------------------------- */
+/* ------------different approach for responsive, also with media queries---------------------------- */
+.footer {
+  background-color: royalblue;
+  padding: 20px 0;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-col {
+  width: 18%;
+  padding: 0 5px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+.footer .instagram {
+  background-color: burlywood;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: auto;
+}
+/* footer > links "animation" */
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+/* footer > responsive */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+}
+/* footer > responsive > optimization of <li> for small resolution. Maybe a collapsible would be better */
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+  footer ul li {
+    display: inline-block;
+  }
+  .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 0px;
+  }
+  .footer ul #line::after {
+    content: "-";
+    color: whitesmoke;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 2px;
+    width: 5px;
+    height: 5px;
+    left: 0;
+  }
+}
