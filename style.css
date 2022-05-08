@@ -307,11 +307,12 @@ main .column-right p {
 
 footer {
     /* just for demo */
-    background-color: royalblue;
+    
     border-top: 1px solid #E7E7E7;
     text-align:center;
+    text-color: white;
     padding:20px;
-    background: white;
+    background-color: royalblue;
    /* just for demo */ 
   
     position: absolute;
