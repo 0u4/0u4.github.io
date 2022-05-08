@@ -4,15 +4,39 @@
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
 }
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+
+
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
 }
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #e6e9ec;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+
 nav {
   position: fixed;
   top: 50%;
@@ -75,4 +99,9 @@ nav .dot {
   left: 0;
   border-radius: 50%;
   transition-duration: 0.5s;
+}
+
+main {
+  margin-left: 1rem;
+  padding: 1rem;
 }
