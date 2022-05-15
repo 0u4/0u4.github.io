@@ -8,7 +8,7 @@ Talk is cheap. Show me the code.
 *   [Java](https://abvx.github.io/j)
 *   [C](https://abvx.github.io/c)
 *   [C++](https://abvx.github.io/c++)
-*   [GitHub](https://github.com/abvx)
+*   [GitHub](https://github.com/abvx/abvx.github.io)
 
 [Resources](http://carlcheo.com/startcoding)
 
