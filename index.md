@@ -12,6 +12,6 @@ Talk is cheap. Show me the code.
 
 [Resources](http://carlcheo.com/startcoding)
 
-![Tutorial](http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-infographic-927x1024.png)
+![Tutorial](https://media.discordapp.net/attachments/966681546130067466/975302827423445032/which-programming-language-should-i-learn-first-infographic_1.png)
 
 © 2019-2022 Sharkaby
