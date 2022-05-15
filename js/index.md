@@ -2,14 +2,18 @@
 
 ## [Book](https://eloquentjavascript.net/)
 
-### [js Course](http://www.w3schools.com/)
+[js Course](https://www.w3schools.com/js/default.asp)
 
-### [Tutorial-mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
-### [Tutorial-superhero.js](http://superherojs.com/)
+Tutorial:
+
+[by mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+[superhero.js](http://superherojs.com/)
 
 ## Related to learn
-### [Node.js Course](https://nodeschool.io/)
+[HTML/CSS/jQuery](https://www.w3schools.com/)
 
+[Node.js Course](https://nodeschool.io/)
 
 #### Related to learn (freemium)
 [Html/CSS Course](http://www.codecademy.com/en/tracks/web)
