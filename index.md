@@ -1,17 +1,3 @@
-  abyseku    
-
-[\>\_](#)
-
-*   [JS](https://abvx.github.io/js)
-*   [Python](https://abvx.github.io/py)
-*   [Java](https://abvx.github.io/j)
-*   [C](https://abvx.github.io/c)
-*   [C++](https://abvx.github.io/c++)
-*   [GitHub](https://github.com/abvx)
-
-  
-  
-
 abvx
 ====
 
