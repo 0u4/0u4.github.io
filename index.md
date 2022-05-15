@@ -1,6 +1,3 @@
-abvx
-====
-
 Talk is cheap. Show me the code.  
 \- Linus Torvalds
 
@@ -14,5 +11,7 @@ Talk is cheap. Show me the code.
 *   [GitHub](https://github.com/abvx)
 
 [Resources](http://carlcheo.com/startcoding)
+
+![Tutorial](http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-infographic-927x1024.png)
 
 © 2019-2022 Sharkaby
