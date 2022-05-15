@@ -14,4 +14,4 @@ Talk is cheap. Show me the code.
 
 ![Tutorial](https://media.discordapp.net/attachments/966681546130067466/975302827423445032/which-programming-language-should-i-learn-first-infographic_1.png)
 
-© 2019-2022 Sharkaby
+[©](https://abvx.github.io/+) 2019-2022 Sharkaby
