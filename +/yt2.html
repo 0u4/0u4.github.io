@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 <head>
-<title>...</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
 </head>
 <body>
 
-<h1>Microscopic Life</h1>
+<h2>Microscopic Life</h2>
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/Ts7XChYURiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<hr>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/PuJTy0T1ncA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/IGxAGkP5NP0?list=PLmTFQfbln37BrzvjyXcQSmMl0ar9IDWfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/CtkjfGXn-A0?list=PLmTFQfbln37BrzvjyXcQSmMl0ar9IDWfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/YVlTXuq3HTA?list=PLmTFQfbln37BrzvjyXcQSmMl0ar9IDWfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/_cKZYDTV7V4?list=PLmTFQfbln37BrzvjyXcQSmMl0ar9IDWfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/372IywjY8no?list=PLmTFQfbln37BrzvjyXcQSmMl0ar9IDWfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<hr>
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/IpUQElrETw4?list=PLmTFQfbln37BrzvjyXcQSmMl0ar9IDWfX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="container"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Ts7XChYURiE"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/PuJTy0T1ncA"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/IGxAGkP5NP0"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/CtkjfGXn-A0"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/YVlTXuq3HTA"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/_cKZYDTV7V4"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/372IywjY8no"></iframe>
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/IpUQElrETw4"></iframe>
+</div>
 
 </body>
 </html>
