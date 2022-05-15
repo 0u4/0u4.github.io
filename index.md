@@ -3,7 +3,7 @@ Talk is cheap. Show me the code.
 
   
 
-*   [JS](https://abvx.github.io/js class=)
+*   [JS](https://abvx.github.io/js)
 *   [Python](https://abvx.github.io/py)
 *   [Java](https://abvx.github.io/j)
 *   [C](https://abvx.github.io/c)
