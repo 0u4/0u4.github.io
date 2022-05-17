@@ -1,5 +1,4 @@
-# C
-C programming language
+# C programming language
 
 # First of all watch [this](https://youtu.be/zOjov-2OZ0E)
 
