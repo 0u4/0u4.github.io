@@ -14,8 +14,11 @@ Talk is cheap. Show me the code.
 
 
 <details>
-  <summary>Click to expand!</summary>  
-  ![flowchart to choose first language](https://media.discordapp.net/attachments/966681546130067466/975302827423445032/which-programming-language-should-i-learn-first-infographic_1.png)
+  <summary>CHOOSE LANGUAGE</summary>  
+  
+* flowchart to choose first language
+  
+* https://media.discordapp.net/attachments/966681546130067466/975302827423445032/which-programming-language-should-i-learn-first-infographic_1.png
 </details>
 
 [©](https://6r7.github.io/+) 2019-2022 Sharkaby
