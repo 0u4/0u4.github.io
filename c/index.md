@@ -4,30 +4,30 @@
 
 # The Basics
 
-> [All Basics](https://abyseku.github.io/C/basics)
+> [All Basics](https://6r7.github.io/C/basics)
 
-> [+ Variables](https://abyseku.github.io/C/variables)
+> [+ Variables](https://6r7.github.io/C/variables)
 
 
 # Draft
 
->[if Else](https://abyseku.github.io/C/draft/ifelse)
+>[if Else](https://6r7.github.io/C/draft/ifelse)
 
->[Loops](https://abyseku.github.io/C/draft/loops)
+>[Loops](https://6r7.github.io/C/draft/loops)
 
->[Operators](https://abyseku.github.io/C/draft/operators)
+>[Operators](https://6r7.github.io/C/draft/operators)
 
->[Pointers](https://abyseku.github.io/C/draft/pointers)
+>[Pointers](https://6r7.github.io/C/draft/pointers)
 
->[Dynamic memory allocation](https://abyseku.github.io/C/draft/DMA)
+>[Dynamic memory allocation](https://6r7.github.io/C/draft/DMA)
 
->[Preprocessor](https://abyseku.github.io/C/draft/preprocessor)
+>[Preprocessor](https://6r7.github.io/C/draft/preprocessor)
 
->[Problems](https://abyseku.github.io/C/draft/problems)
+>[Problems](https://6r7.github.io/C/draft/problems)
 
 
 #### Others - general knowledge
->[A.I](https://abyseku.github.io/C/draft/gk/ai)
+>[A.I](https://6r7.github.io/C/draft/gk/ai)
 
 
 
